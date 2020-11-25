@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+
+    </h1>
+    <script>
+        var nome = prompt('qual é seu nome?');
+        document.write(`olá, ${nome}! seu nome tem ${nome.length} letras </br>`);
+        document.write(`olá, ${nome}! seu nome tem ${nome.toUpperCase()} letras </br>`);
+        document.write(`olá, ${nome.toLowerCase()}`);
+
+        // (.length) quantos caracteres a string  tem
+        // (.toUpperCase()) tudo para MAIUSCULA
+        // (.toLowerCase()) tudo em minuscula 
+
+        var n1 = 1545.5;
+        //document.querySelector('h1').innerHTML = n1.toFixed(2);
+        //document.querySelector('h1').innerHTML = n1.toFixed(2).replace('.', ',');
+        document.querySelector('h1').innerHTML = n1.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'} );
+
+    </script>
+</body>
+</html>
