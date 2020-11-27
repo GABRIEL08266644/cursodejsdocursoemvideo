@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+    font: normal 15pt Arial;
+}
+
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.445);
+    align-items: center;
+    justify-content: center;
+}
+
+#msg,
+#bom-dia,
+#foto {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+} 
+
+#foto img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
