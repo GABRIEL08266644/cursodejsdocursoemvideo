@@ -30,3 +30,6 @@ footer {
     text-align: center;
     font-style: italic;
 }
+.res {
+    max-width: 400px;
+}
